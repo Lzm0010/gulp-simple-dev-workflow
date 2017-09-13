@@ -91,7 +91,7 @@ gulp.task('html', function(){
 //========= GULP CLEAN==========//
 //gulp clean command to delete all of the files and folders in the dist folder.
 gulp.task('clean', function() {
-  del(options.dist);
+  return del(options.dist);
 });
 
 
